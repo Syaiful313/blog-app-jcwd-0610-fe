@@ -59,8 +59,11 @@ export function LoginForm({
                 )}
               </div>
               <div className="grid gap-2">
-                <div className="flex items-center">
+                <div className="flex items-center justify-between">
                   <Label htmlFor="password">Password</Label>
+                  <Link href="/forgot-password" className="text-xs">
+                    Forgot Password
+                  </Link>
                 </div>
                 <Input
                   id="password"
