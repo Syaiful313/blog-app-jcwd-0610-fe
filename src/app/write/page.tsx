@@ -1,4 +1,3 @@
-"use client"
 import WritePage from "@/features/write";
 import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
